@@ -1,0 +1,98 @@
+2026-01-18 12:20:20.050 [main] INFO  c.e.p.ProductServiceSpringApplicationTests -  [] Starting ProductServiceSpringApplicationTests using Java 17.0.17 with PID 11543 (started by apprameyubharath in /Users/apprameyubharath/code/invoice-application/productServiceSpring)
+2026-01-18 12:20:20.051 [main] INFO  c.e.p.ProductServiceSpringApplicationTests -  [] No active profile set, falling back to 1 default profile: "default"
+2026-01-18 12:20:20.317 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-18 12:20:20.344 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [] Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2026-01-18 12:20:20.530 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Starting...
+2026-01-18 12:20:20.698 [main] INFO  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@102c18e
+2026-01-18 12:20:20.699 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Start completed.
+2026-01-18 12:20:20.719 [main] INFO  o.h.jpa.internal.util.LogHelper -  [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-18 12:20:20.740 [main] INFO  org.hibernate.Version -  [] HHH000412: Hibernate ORM core version 6.6.13.Final
+2026-01-18 12:20:20.755 [main] INFO  o.h.c.i.RegionFactoryInitiator -  [] HHH000026: Second-level cache disabled
+2026-01-18 12:20:20.867 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -  [] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-18 12:20:20.919 [main] INFO  o.hibernate.orm.connections.pooling -  [] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-18 12:20:20.922 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3ce7490a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4768b95c)
+2026-01-18 12:20:20.922 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1530d0f2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7573c7b5)
+2026-01-18 12:20:20.922 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@73da7f08) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@717a8a76)
+2026-01-18 12:20:20.922 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@62de73eb) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@97b5e6a)
+2026-01-18 12:20:20.922 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@29f95272) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@c754401)
+2026-01-18 12:20:20.923 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1da53f4f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4e7eba9f)
+2026-01-18 12:20:20.923 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2df71be0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@b841713)
+2026-01-18 12:20:20.923 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3fef1e6b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4fee14b)
+2026-01-18 12:20:20.923 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@11c3d22f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3a54638b)
+2026-01-18 12:20:21.244 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -  [] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-18 12:20:21.246 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-18 12:20:21.399 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-18 12:20:21.532 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration -  [] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-01-18 12:20:21.585 [main] INFO  c.e.p.ProductServiceSpringApplicationTests -  [] Started ProductServiceSpringApplicationTests in 1.674 seconds (process running for 2.05)
+2026-01-18 12:20:21.876 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-18 12:20:21.877 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Shutdown initiated...
+2026-01-18 12:20:21.882 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Shutdown completed.
+2026-01-18 12:39:04.916 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] Starting ProductServiceSpringApplication using Java 17.0.17 with PID 15337 (/Users/apprameyubharath/code/invoice-application/productServiceSpring/target/classes started by apprameyubharath in /Users/apprameyubharath/code/invoice-application/productServiceSpring)
+2026-01-18 12:39:04.918 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] No active profile set, falling back to 1 default profile: "default"
+2026-01-18 12:39:05.317 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-18 12:39:05.349 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [] Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2026-01-18 12:39:05.616 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -  [] Tomcat initialized with port 8082 (http)
+2026-01-18 12:39:05.624 [main] INFO  o.a.catalina.core.StandardService -  [] Starting service [Tomcat]
+2026-01-18 12:39:05.624 [main] INFO  o.a.catalina.core.StandardEngine -  [] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-01-18 12:39:05.656 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -  [] Initializing Spring embedded WebApplicationContext
+2026-01-18 12:39:05.656 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -  [] Root WebApplicationContext: initialization completed in 698 ms
+2026-01-18 12:39:05.741 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Starting...
+2026-01-18 12:39:05.914 [main] INFO  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bf03fee
+2026-01-18 12:39:05.915 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Start completed.
+2026-01-18 12:39:05.935 [main] INFO  o.h.jpa.internal.util.LogHelper -  [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-18 12:39:05.957 [main] INFO  org.hibernate.Version -  [] HHH000412: Hibernate ORM core version 6.6.13.Final
+2026-01-18 12:39:05.978 [main] INFO  o.h.c.i.RegionFactoryInitiator -  [] HHH000026: Second-level cache disabled
+2026-01-18 12:39:06.101 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -  [] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-18 12:39:06.154 [main] INFO  o.hibernate.orm.connections.pooling -  [] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-18 12:39:06.157 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@26f75d9c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7717b4a0)
+2026-01-18 12:39:06.157 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@69b37f5c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@28b5662d)
+2026-01-18 12:39:06.157 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@34b2d51a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7e4ac598)
+2026-01-18 12:39:06.157 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@cf10c92) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@f76872f)
+2026-01-18 12:39:06.157 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2d4e99de) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@580ffea)
+2026-01-18 12:39:06.157 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@191e654) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3a6556b6)
+2026-01-18 12:39:06.158 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@63bca84d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6141647f)
+2026-01-18 12:39:06.158 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6f6c8d45) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7f2ca6f8)
+2026-01-18 12:39:06.158 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@79d49790) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@13dc6649)
+2026-01-18 12:39:06.522 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -  [] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-18 12:39:06.524 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-18 12:39:06.633 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-18 12:39:06.755 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration -  [] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-01-18 12:39:06.825 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -  [] Tomcat started on port 8082 (http) with context path '/'
+2026-01-18 12:39:06.833 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] Started ProductServiceSpringApplication in 2.224 seconds (process running for 2.417)
+2026-01-18 12:39:07.900 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -  [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-18 12:39:07.900 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet -  [] Initializing Servlet 'dispatcherServlet'
+2026-01-18 12:39:07.900 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet -  [] Completed initialization in 0 ms
+2026-01-18 12:39:07.913 [http-nio-8082-exec-1] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-18 12:39:07.913 [http-nio-8082-exec-1] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-18 12:39:07.962 [http-nio-8082-exec-1] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-18 12:39:59.571 [http-nio-8082-exec-2] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-18 12:39:59.572 [http-nio-8082-exec-2] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-18 12:39:59.580 [http-nio-8082-exec-2] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-18 12:40:52.578 [http-nio-8082-exec-6] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-18 12:40:52.579 [http-nio-8082-exec-6] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-18 12:40:52.584 [http-nio-8082-exec-6] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-18 13:26:34.729 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m28s586ms).
+2026-01-18 13:29:23.268 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m48s540ms).
+2026-01-18 14:22:25.195 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m1s624ms).
+2026-01-18 16:44:05.897 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m40s39ms).
+2026-01-18 17:27:35.681 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m29s787ms).
+2026-01-18 19:00:14.181 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h32m38s500ms).
+2026-01-18 19:49:56.414 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m42s233ms).
+2026-01-18 23:12:38.684 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [] Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-18 23:12:38.736 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [] Graceful shutdown complete
+2026-01-18 23:12:38.774 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-18 23:12:38.827 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Shutdown initiated...

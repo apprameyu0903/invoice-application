@@ -1,3 +1,4 @@
+
 package com.saasant.customerServiceSpring.controller;
 
 import com.saasant.customerServiceSpring.exception.CustomerNotFoundException;
@@ -50,7 +51,9 @@ public class CustomerController {
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "7") int size,
             @RequestParam(defaultValue = "customerId,asc") String[] sort) {
-        Pageable pageable = PageRequest.of(page, size, Sort.by(sort[0]));
+
+
+	Pageable pageable = PageRequest.of(page, size, Sort.by(sort[0]));
         Page<CustomerDetails> customersPage = customerService.getAllCustomers(pageable);
         return ResponseEntity.ok(customersPage);
     }

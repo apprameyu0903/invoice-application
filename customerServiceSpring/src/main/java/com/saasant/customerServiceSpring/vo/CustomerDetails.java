@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class CustomerDetails
 {
 
-	String customerId;
+    String customerId;
     String customerName;
     String customerMobile;
     String customerLocation;
