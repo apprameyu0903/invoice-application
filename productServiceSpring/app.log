@@ -1,0 +1,333 @@
+2026-01-28 00:11:50.636 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m6s589ms).
+2026-01-28 00:26:54.947 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m4s311ms).
+2026-01-28 00:41:58.332 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m3s384ms).
+2026-01-28 00:57:01.026 [http-nio-8082-exec-2] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 00:57:01.027 [http-nio-8082-exec-2] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 00:57:01.046 [http-nio-8082-exec-2] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 01:06:38.227 [http-nio-8082-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -  [] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-01-28 01:08:27.788 [http-nio-8082-exec-8] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 01:08:27.790 [http-nio-8082-exec-8] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 01:08:27.834 [http-nio-8082-exec-8] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 01:21:19.378 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [] Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28 01:21:19.397 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [] Graceful shutdown complete
+2026-01-28 01:21:19.412 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28 01:21:19.441 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Shutdown initiated...
+2026-01-28 01:21:19.462 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Shutdown completed.
+2026-01-28 01:21:30.965 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] Starting ProductServiceSpringApplication using Java 17.0.17 with PID 47166 (/Users/apprameyubharath/code/invoice-application/productServiceSpring/target/classes started by apprameyubharath in /Users/apprameyubharath/code/invoice-application/productServiceSpring)
+2026-01-28 01:21:30.966 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] No active profile set, falling back to 1 default profile: "default"
+2026-01-28 01:21:31.214 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28 01:21:31.236 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [] Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2026-01-28 01:21:31.446 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -  [] Tomcat initialized with port 8082 (http)
+2026-01-28 01:21:31.454 [main] INFO  o.a.catalina.core.StandardService -  [] Starting service [Tomcat]
+2026-01-28 01:21:31.454 [main] INFO  o.a.catalina.core.StandardEngine -  [] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-01-28 01:21:31.477 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -  [] Initializing Spring embedded WebApplicationContext
+2026-01-28 01:21:31.477 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -  [] Root WebApplicationContext: initialization completed in 493 ms
+2026-01-28 01:21:31.542 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Starting...
+2026-01-28 01:21:31.741 [main] INFO  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@412ebe64
+2026-01-28 01:21:31.742 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Start completed.
+2026-01-28 01:21:31.763 [main] INFO  o.h.jpa.internal.util.LogHelper -  [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-28 01:21:31.790 [main] INFO  org.hibernate.Version -  [] HHH000412: Hibernate ORM core version 6.6.13.Final
+2026-01-28 01:21:31.810 [main] INFO  o.h.c.i.RegionFactoryInitiator -  [] HHH000026: Second-level cache disabled
+2026-01-28 01:21:31.928 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -  [] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28 01:21:32.008 [main] INFO  o.hibernate.orm.connections.pooling -  [] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-28 01:21:32.011 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1533338c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4315fe1b)
+2026-01-28 01:21:32.011 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@34e990cc) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2d5ae78e)
+2026-01-28 01:21:32.011 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@21f91efa) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4df0d9f8)
+2026-01-28 01:21:32.011 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@35e75f7a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4f7bb8df)
+2026-01-28 01:21:32.011 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@269c7104) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6de84336)
+2026-01-28 01:21:32.011 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@627bcd7e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@70543cae)
+2026-01-28 01:21:32.011 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@350567f1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1a5b7394)
+2026-01-28 01:21:32.011 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@26f75d9c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7717b4a0)
+2026-01-28 01:21:32.011 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@69b37f5c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@28b5662d)
+2026-01-28 01:21:32.323 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -  [] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28 01:21:32.324 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28 01:21:32.414 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-28 01:21:32.515 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration -  [] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-01-28 01:21:32.572 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -  [] Tomcat started on port 8082 (http) with context path '/'
+2026-01-28 01:21:32.577 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] Started ProductServiceSpringApplication in 1.788 seconds (process running for 1.926)
+2026-01-28 01:23:49.665 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -  [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28 01:23:49.666 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet -  [] Initializing Servlet 'dispatcherServlet'
+2026-01-28 01:23:49.670 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet -  [] Completed initialization in 4 ms
+2026-01-28 01:23:49.686 [http-nio-8082-exec-1] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 01:23:49.686 [http-nio-8082-exec-1] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 01:23:49.747 [http-nio-8082-exec-1] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 01:27:04.769 [http-nio-8082-exec-3] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 01:27:04.770 [http-nio-8082-exec-3] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 01:27:04.779 [http-nio-8082-exec-3] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 01:36:19.826 [http-nio-8082-exec-5] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 01:36:19.827 [http-nio-8082-exec-5] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 01:36:19.839 [http-nio-8082-exec-5] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 01:36:47.864 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [] Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28 01:36:47.873 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [] Graceful shutdown complete
+2026-01-28 01:36:47.878 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28 01:36:47.882 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Shutdown initiated...
+2026-01-28 01:36:47.891 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Shutdown completed.
+2026-01-28 11:58:57.239 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] Starting ProductServiceSpringApplication using Java 17.0.17 with PID 2755 (/Users/apprameyubharath/code/invoice-application/productServiceSpring/target/classes started by apprameyubharath in /Users/apprameyubharath/code/invoice-application/productServiceSpring)
+2026-01-28 11:58:57.240 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] No active profile set, falling back to 1 default profile: "default"
+2026-01-28 11:58:57.452 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28 11:58:57.473 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [] Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2026-01-28 11:58:57.652 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -  [] Tomcat initialized with port 8082 (http)
+2026-01-28 11:58:57.657 [main] INFO  o.a.catalina.core.StandardService -  [] Starting service [Tomcat]
+2026-01-28 11:58:57.657 [main] INFO  o.a.catalina.core.StandardEngine -  [] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-01-28 11:58:57.675 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -  [] Initializing Spring embedded WebApplicationContext
+2026-01-28 11:58:57.675 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -  [] Root WebApplicationContext: initialization completed in 420 ms
+2026-01-28 11:58:57.727 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Starting...
+2026-01-28 11:58:58.805 [main] INFO  o.h.jpa.internal.util.LogHelper -  [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-28 11:58:58.838 [main] INFO  org.hibernate.Version -  [] HHH000412: Hibernate ORM core version 6.6.13.Final
+2026-01-28 11:58:58.853 [main] INFO  o.h.c.i.RegionFactoryInitiator -  [] HHH000026: Second-level cache disabled
+2026-01-28 11:58:58.947 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -  [] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28 11:58:58.957 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Starting...
+2026-01-28 11:58:59.968 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper -  [] SQL Error: 0, SQLState: 08S01
+2026-01-28 11:58:59.969 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper -  [] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2026-01-28 11:58:59.970 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator -  [] HHH000342: Could not obtain connection to query metadata
+org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:320)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.example.productServiceSpring.ProductServiceSpringApplication.main(ProductServiceSpringApplication.java:13)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:837)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:126)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:467)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 35 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:961)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 48 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 51 common frames omitted
+2026-01-28 11:58:59.981 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean -  [] Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-01-28 11:58:59.982 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -  [] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-01-28 11:58:59.985 [main] INFO  o.a.catalina.core.StandardService -  [] Stopping service [Tomcat]
+2026-01-28 11:58:59.999 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger -  [] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-28 11:59:00.010 [main] ERROR o.s.boot.SpringApplication -  [] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at com.example.productServiceSpring.ProductServiceSpringApplication.main(ProductServiceSpringApplication.java:13)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:226)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:194)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1865)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1814)
+	... 15 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:392)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:129)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:81)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 30 common frames omitted
+2026-01-28 11:59:39.189 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] Starting ProductServiceSpringApplication using Java 17.0.17 with PID 2831 (/Users/apprameyubharath/code/invoice-application/productServiceSpring/target/classes started by apprameyubharath in /Users/apprameyubharath/code/invoice-application/productServiceSpring)
+2026-01-28 11:59:39.191 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] No active profile set, falling back to 1 default profile: "default"
+2026-01-28 11:59:39.420 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28 11:59:39.442 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [] Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2026-01-28 11:59:39.634 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -  [] Tomcat initialized with port 8082 (http)
+2026-01-28 11:59:39.640 [main] INFO  o.a.catalina.core.StandardService -  [] Starting service [Tomcat]
+2026-01-28 11:59:39.640 [main] INFO  o.a.catalina.core.StandardEngine -  [] Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-01-28 11:59:39.659 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -  [] Initializing Spring embedded WebApplicationContext
+2026-01-28 11:59:39.659 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -  [] Root WebApplicationContext: initialization completed in 453 ms
+2026-01-28 11:59:39.717 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Starting...
+2026-01-28 11:59:39.850 [main] INFO  com.zaxxer.hikari.pool.HikariPool -  [] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c3158e0
+2026-01-28 11:59:39.850 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Start completed.
+2026-01-28 11:59:39.868 [main] INFO  o.h.jpa.internal.util.LogHelper -  [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-28 11:59:39.893 [main] INFO  org.hibernate.Version -  [] HHH000412: Hibernate ORM core version 6.6.13.Final
+2026-01-28 11:59:39.911 [main] INFO  o.h.c.i.RegionFactoryInitiator -  [] HHH000026: Second-level cache disabled
+2026-01-28 11:59:40.012 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -  [] No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28 11:59:40.059 [main] INFO  o.hibernate.orm.connections.pooling -  [] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-28 11:59:40.061 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@e72fb04) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1533338c)
+2026-01-28 11:59:40.062 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4315fe1b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@34e990cc)
+2026-01-28 11:59:40.062 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2d5ae78e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@21f91efa)
+2026-01-28 11:59:40.062 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4df0d9f8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@35e75f7a)
+2026-01-28 11:59:40.062 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4f7bb8df) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@269c7104)
+2026-01-28 11:59:40.062 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6de84336) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@627bcd7e)
+2026-01-28 11:59:40.062 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@70543cae) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@350567f1)
+2026-01-28 11:59:40.062 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1a5b7394) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@26f75d9c)
+2026-01-28 11:59:40.062 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [] addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7717b4a0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@69b37f5c)
+2026-01-28 11:59:40.360 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -  [] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28 11:59:40.361 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28 11:59:40.453 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-28 11:59:40.550 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration -  [] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-01-28 11:59:40.604 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -  [] Tomcat started on port 8082 (http) with context path '/'
+2026-01-28 11:59:40.609 [main] INFO  c.e.p.ProductServiceSpringApplication -  [] Started ProductServiceSpringApplication in 1.583 seconds (process running for 1.71)
+2026-01-28 12:01:37.171 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -  [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28 12:01:37.172 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet -  [] Initializing Servlet 'dispatcherServlet'
+2026-01-28 12:01:37.174 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet -  [] Completed initialization in 2 ms
+2026-01-28 12:01:37.207 [http-nio-8082-exec-1] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 12:01:37.207 [http-nio-8082-exec-1] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 12:01:37.269 [http-nio-8082-exec-1] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 12:06:05.718 [http-nio-8082-exec-3] INFO  c.e.p.controller.ProductController -  [8667d334-93fc-48c7-b50f-95a7bb108035] Fetching all products
+2026-01-28 12:06:05.723 [http-nio-8082-exec-3] INFO  c.e.p.service.ProductServiceImp -  [8667d334-93fc-48c7-b50f-95a7bb108035] Fetching all products
+2026-01-28 12:06:05.770 [http-nio-8082-exec-3] DEBUG org.hibernate.SQL -  [8667d334-93fc-48c7-b50f-95a7bb108035] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 12:23:55.270 [http-nio-8082-exec-5] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 12:23:55.272 [http-nio-8082-exec-5] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 12:23:55.287 [http-nio-8082-exec-5] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 12:24:34.032 [http-nio-8082-exec-8] INFO  c.e.p.service.ProductServiceImp -  [] Adding product: Soap
+2026-01-28 12:24:34.043 [http-nio-8082-exec-8] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0 where p1_0.product_id=?
+2026-01-28 12:24:34.060 [http-nio-8082-exec-8] DEBUG org.hibernate.SQL -  [] insert into products (name,price,tax_percent,product_id) values (?,?,?,?)
+2026-01-28 12:24:34.086 [http-nio-8082-exec-9] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 12:24:34.087 [http-nio-8082-exec-9] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 12:24:34.088 [http-nio-8082-exec-9] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 12:33:22.473 [http-nio-8082-exec-1] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 12:33:22.474 [http-nio-8082-exec-1] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 12:33:22.489 [http-nio-8082-exec-1] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 12:33:33.033 [http-nio-8082-exec-3] INFO  c.e.p.controller.ProductController -  [] Updating product with ID: 1
+2026-01-28 12:33:33.033 [http-nio-8082-exec-3] INFO  c.e.p.service.ProductServiceImp -  [] Updating product with ID: 1
+2026-01-28 12:33:33.039 [http-nio-8082-exec-3] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0 where p1_0.product_id=?
+2026-01-28 12:33:33.054 [http-nio-8082-exec-3] DEBUG org.hibernate.SQL -  [] update products set name=?,price=?,tax_percent=? where product_id=?
+2026-01-28 12:33:33.075 [http-nio-8082-exec-4] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 12:33:33.075 [http-nio-8082-exec-4] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 12:33:33.076 [http-nio-8082-exec-4] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 12:40:51.869 [http-nio-8082-exec-6] INFO  c.e.p.controller.ProductController -  [] Updating product with ID: 1
+2026-01-28 12:40:51.870 [http-nio-8082-exec-6] INFO  c.e.p.service.ProductServiceImp -  [] Updating product with ID: 1
+2026-01-28 12:40:51.878 [http-nio-8082-exec-6] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0 where p1_0.product_id=?
+2026-01-28 12:40:51.885 [http-nio-8082-exec-6] DEBUG org.hibernate.SQL -  [] update products set name=?,price=?,tax_percent=? where product_id=?
+2026-01-28 12:40:51.898 [http-nio-8082-exec-7] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 12:40:51.899 [http-nio-8082-exec-7] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 12:40:51.903 [http-nio-8082-exec-7] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 12:53:43.252 [http-nio-8082-exec-9] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 12:53:43.253 [http-nio-8082-exec-9] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 12:53:43.264 [http-nio-8082-exec-9] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 12:55:55.179 [http-nio-8082-exec-1] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 12:55:55.182 [http-nio-8082-exec-1] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 12:55:55.205 [http-nio-8082-exec-1] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 13:06:02.399 [http-nio-8082-exec-3] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 13:06:02.400 [http-nio-8082-exec-3] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 13:06:02.410 [http-nio-8082-exec-3] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 13:38:38.121 [http-nio-8082-exec-5] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 13:38:38.124 [http-nio-8082-exec-5] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 13:38:38.132 [http-nio-8082-exec-5] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 13:38:38.186 [http-nio-8082-exec-6] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 13:38:38.186 [http-nio-8082-exec-6] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 13:38:38.188 [http-nio-8082-exec-6] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 14:01:46.041 [http-nio-8082-exec-8] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 14:01:46.044 [http-nio-8082-exec-8] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 14:01:46.069 [http-nio-8082-exec-8] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 14:02:02.727 [http-nio-8082-exec-9] INFO  c.e.p.controller.ProductController -  [] Fetching all products
+2026-01-28 14:02:02.728 [http-nio-8082-exec-9] INFO  c.e.p.service.ProductServiceImp -  [] Fetching all products
+2026-01-28 14:02:02.731 [http-nio-8082-exec-9] DEBUG org.hibernate.SQL -  [] select p1_0.product_id,p1_0.name,p1_0.price,p1_0.tax_percent from products p1_0
+2026-01-28 14:03:11.453 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [] Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28 14:03:11.465 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [] Graceful shutdown complete
+2026-01-28 14:03:11.474 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [] Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28 14:03:11.485 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Shutdown initiated...
+2026-01-28 14:03:11.491 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [] HikariPool-1 - Shutdown completed.

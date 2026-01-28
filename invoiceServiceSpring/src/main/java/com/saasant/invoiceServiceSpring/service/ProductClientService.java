@@ -88,6 +88,38 @@ public class ProductClientService {
         }
         return exists;
     }
+    
+    /**
+     * Checks if the product cache contains any data.
+     * 
+     * @return true if cache has products, false if empty
+     */
+    public boolean isCacheEmpty() {
+        boolean empty = productCache.isEmpty();
+        log.debug("Product cache is {} - Size: {}", empty ? "empty" : "not empty", productCache.size());
+        return empty;
+    }
+    
+    /**
+     * Gets the number of products stored in the cache.
+     * 
+     * @return size of the product cache
+     */
+    public int getCacheSize() {
+        int size = productCache.size();
+        log.debug("Product cache size: {}", size);
+        return size;
+    }
+    
+    /**
+     * Gets all products from the cache.
+     * 
+     * @return unmodifiable list of products in the cache
+     */
+    public List<Product> getAllCachedProducts() {
+        log.debug("Fetching all {} products from cache", productCache.size());
+        return List.copyOf(productCache.values());
+    }
 	
 	
 

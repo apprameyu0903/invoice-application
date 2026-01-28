@@ -1,0 +1,279 @@
+2026-01-28 00:01:07.830 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [trackingId: ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m31s835ms).
+2026-01-28 00:11:56.146 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [trackingId: ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m48s315ms).
+2026-01-28 00:27:00.451 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [trackingId: ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m4s306ms).
+2026-01-28 00:42:03.838 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -  [trackingId: ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m3s386ms).
+2026-01-28 00:43:52.519 [http-nio-8080-exec-1] INFO  c.s.c.controller.CustomerController -  [trackingId: 267aca4d-643a-435a-acfa-6fbda1e57ad1] - API: Request to get customer by ID: C001
+2026-01-28 00:43:52.519 [http-nio-8080-exec-1] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 267aca4d-643a-435a-acfa-6fbda1e57ad1] - SERVICE: Fetching customer by ID: C001
+2026-01-28 00:44:55.834 [http-nio-8080-exec-3] INFO  c.s.c.controller.CustomerController -  [trackingId: 6de75366-ffa3-4b80-9b9f-b5d897c9e373] - API: Request to get customer by ID: C001
+2026-01-28 00:44:55.834 [http-nio-8080-exec-3] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 6de75366-ffa3-4b80-9b9f-b5d897c9e373] - SERVICE: Fetching customer by ID: C001
+2026-01-28 00:59:08.548 [http-nio-8080-exec-5] INFO  c.s.c.controller.CustomerController -  [trackingId: 429c8eb2-d025-4701-acf7-601dc6e8c7cf] - API: Request to get customer by ID: 1
+2026-01-28 00:59:08.549 [http-nio-8080-exec-5] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 429c8eb2-d025-4701-acf7-601dc6e8c7cf] - SERVICE: Fetching customer by ID: 1
+2026-01-28 00:59:08.567 [http-nio-8080-exec-5] WARN  c.s.c.CustomerServiceSpringApplication -  [trackingId: 429c8eb2-d025-4701-acf7-601dc6e8c7cf] - SERVICE: No customer found with ID: 1
+2026-01-28 00:59:32.511 [http-nio-8080-exec-6] INFO  c.s.c.controller.CustomerController -  [trackingId: 685730d5-65d6-4b1d-9130-92107f4bbc7d] - API: Request to get customer by ID: 1
+2026-01-28 00:59:32.512 [http-nio-8080-exec-6] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 685730d5-65d6-4b1d-9130-92107f4bbc7d] - SERVICE: Fetching customer by ID: 1
+2026-01-28 00:59:32.515 [http-nio-8080-exec-6] WARN  c.s.c.CustomerServiceSpringApplication -  [trackingId: 685730d5-65d6-4b1d-9130-92107f4bbc7d] - SERVICE: No customer found with ID: 1
+2026-01-28 01:00:15.746 [http-nio-8080-exec-7] INFO  c.s.c.controller.CustomerController -  [trackingId: ] - API: Request to get all customers
+2026-01-28 01:00:37.141 [http-nio-8080-exec-10] INFO  c.s.c.controller.CustomerController -  [trackingId: 97ce6f85-0d63-4747-8b00-9e93514286ec] - API: Request to get customer by ID: C001
+2026-01-28 01:00:37.142 [http-nio-8080-exec-10] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 97ce6f85-0d63-4747-8b00-9e93514286ec] - SERVICE: Fetching customer by ID: C001
+2026-01-28 01:01:20.796 [http-nio-8080-exec-1] INFO  c.s.c.controller.CustomerController -  [trackingId: a67e350e-e2e3-4bed-88ad-26113b37b13b] - API: Request to get customer by ID: C001
+2026-01-28 01:01:20.796 [http-nio-8080-exec-1] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: a67e350e-e2e3-4bed-88ad-26113b37b13b] - SERVICE: Fetching customer by ID: C001
+2026-01-28 01:06:09.387 [http-nio-8080-exec-3] INFO  c.s.c.controller.CustomerController -  [trackingId: 9304c0e3-69f2-4275-ad80-d8873c54c264] - API: Request to get customer by ID: C001
+2026-01-28 01:06:09.388 [http-nio-8080-exec-3] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 9304c0e3-69f2-4275-ad80-d8873c54c264] - SERVICE: Fetching customer by ID: C001
+2026-01-28 01:27:04.754 [http-nio-8080-exec-5] INFO  c.s.c.controller.CustomerController -  [trackingId: ] - API: Request to get all customers
+2026-01-28 01:27:18.274 [http-nio-8080-exec-6] INFO  c.s.c.controller.CustomerController -  [trackingId: 804f12c9-63e8-4ff0-98b8-850fa47e6b59] - API: Request to get customer by ID: C001
+2026-01-28 01:27:18.275 [http-nio-8080-exec-6] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 804f12c9-63e8-4ff0-98b8-850fa47e6b59] - SERVICE: Fetching customer by ID: C001
+2026-01-28 01:32:51.109 [http-nio-8080-exec-9] INFO  c.s.c.controller.CustomerController -  [trackingId: d638aa23-f62b-4188-8be2-c813a1415349] - API: Request to get customer by ID: C001
+2026-01-28 01:32:51.110 [http-nio-8080-exec-9] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: d638aa23-f62b-4188-8be2-c813a1415349] - SERVICE: Fetching customer by ID: C001
+2026-01-28 01:36:19.823 [http-nio-8080-exec-2] INFO  c.s.c.controller.CustomerController -  [trackingId: ] - API: Request to get all customers
+2026-01-28 01:36:19.825 [http-nio-8080-exec-1] INFO  c.s.c.controller.CustomerController -  [trackingId: 5d3c374f-c679-44f7-a44b-13caed52bb54] - API: Request to get customer by ID: C001
+2026-01-28 01:36:19.825 [http-nio-8080-exec-1] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 5d3c374f-c679-44f7-a44b-13caed52bb54] - SERVICE: Fetching customer by ID: C001
+2026-01-28 01:36:45.729 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [trackingId: ] - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28 01:36:45.747 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [trackingId: ] - Graceful shutdown complete
+2026-01-28 01:36:45.766 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [trackingId: ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28 01:36:45.777 [SpringApplicationShutdownHook] TRACE o.h.type.spi.TypeConfiguration$Scope -  [trackingId: ] - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@4724b2c1] for TypeConfiguration
+2026-01-28 01:36:45.777 [SpringApplicationShutdownHook] DEBUG o.h.type.spi.TypeConfiguration$Scope -  [trackingId: ] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@42dbaae3] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@4724b2c1]
+2026-01-28 01:36:45.791 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [trackingId: ] - HikariPool-1 - Shutdown initiated...
+2026-01-28 01:36:45.800 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [trackingId: ] - HikariPool-1 - Shutdown completed.
+2026-01-28 12:00:43.438 [main] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: ] - Starting CustomerServiceSpringApplication using Java 17.0.17 with PID 3626 (/Users/apprameyubharath/code/invoice-application/customerServiceSpring/target/classes started by apprameyubharath in /Users/apprameyubharath/code/invoice-application/customerServiceSpring)
+2026-01-28 12:00:43.439 [main] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: ] - No active profile set, falling back to 1 default profile: "default"
+2026-01-28 12:00:43.727 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [trackingId: ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-28 12:00:43.750 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -  [trackingId: ] - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2026-01-28 12:00:43.985 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -  [trackingId: ] - Tomcat initialized with port 8080 (http)
+2026-01-28 12:00:43.990 [main] INFO  o.a.catalina.core.StandardService -  [trackingId: ] - Starting service [Tomcat]
+2026-01-28 12:00:43.991 [main] INFO  o.a.catalina.core.StandardEngine -  [trackingId: ] - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-01-28 12:00:44.011 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -  [trackingId: ] - Initializing Spring embedded WebApplicationContext
+2026-01-28 12:00:44.011 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -  [trackingId: ] - Root WebApplicationContext: initialization completed in 554 ms
+2026-01-28 12:00:44.063 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [trackingId: ] - HikariPool-1 - Starting...
+2026-01-28 12:00:44.198 [main] INFO  com.zaxxer.hikari.pool.HikariPool -  [trackingId: ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d69d288
+2026-01-28 12:00:44.199 [main] INFO  com.zaxxer.hikari.HikariDataSource -  [trackingId: ] - HikariPool-1 - Start completed.
+2026-01-28 12:00:44.216 [main] INFO  o.h.jpa.internal.util.LogHelper -  [trackingId: ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-28 12:00:44.237 [main] INFO  org.hibernate.Version -  [trackingId: ] - HHH000412: Hibernate ORM core version 6.6.13.Final
+2026-01-28 12:00:44.249 [main] INFO  o.h.c.i.RegionFactoryInitiator -  [trackingId: ] - HHH000026: Second-level cache disabled
+2026-01-28 12:00:44.275 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@205159dc
+2026-01-28 12:00:44.275 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration boolean -> org.hibernate.type.BasicTypeReference@205159dc
+2026-01-28 12:00:44.275 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@205159dc
+2026-01-28 12:00:44.275 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@43c0c13a
+2026-01-28 12:00:44.275 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@43c0c13a
+2026-01-28 12:00:44.275 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration true_false -> org.hibernate.type.BasicTypeReference@731db93f
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@731db93f
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@67941d
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@67941d
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration byte -> org.hibernate.type.BasicTypeReference@2ad2b274
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration byte -> org.hibernate.type.BasicTypeReference@2ad2b274
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@2ad2b274
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration binary -> org.hibernate.type.BasicTypeReference@6fde6f05
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@6fde6f05
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration [B -> org.hibernate.type.BasicTypeReference@6fde6f05
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@72110818
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@72110818
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration image -> org.hibernate.type.BasicTypeReference@6eabe718
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration blob -> org.hibernate.type.BasicTypeReference@38d525aa
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@38d525aa
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@f9b8129
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@7530090a
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration short -> org.hibernate.type.BasicTypeReference@4492b393
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration short -> org.hibernate.type.BasicTypeReference@4492b393
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@4492b393
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration integer -> org.hibernate.type.BasicTypeReference@55fb36de
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration int -> org.hibernate.type.BasicTypeReference@55fb36de
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@55fb36de
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration long -> org.hibernate.type.BasicTypeReference@63a7781
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration long -> org.hibernate.type.BasicTypeReference@63a7781
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@63a7781
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration float -> org.hibernate.type.BasicTypeReference@73b74615
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration float -> org.hibernate.type.BasicTypeReference@73b74615
+2026-01-28 12:00:44.276 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@73b74615
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration double -> org.hibernate.type.BasicTypeReference@22686ddb
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration double -> org.hibernate.type.BasicTypeReference@22686ddb
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@22686ddb
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@2e29f28e
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@2e29f28e
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@7bfa1eb5
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@7bfa1eb5
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration character -> org.hibernate.type.BasicTypeReference@32b46831
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration char -> org.hibernate.type.BasicTypeReference@32b46831
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@32b46831
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@5353dd09
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration string -> org.hibernate.type.BasicTypeReference@320ff86f
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@320ff86f
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration nstring -> org.hibernate.type.BasicTypeReference@192b472d
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration characters -> org.hibernate.type.BasicTypeReference@84f51d9
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration char[] -> org.hibernate.type.BasicTypeReference@84f51d9
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration [C -> org.hibernate.type.BasicTypeReference@84f51d9
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@45b96e4c
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration text -> org.hibernate.type.BasicTypeReference@8383a14
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration ntext -> org.hibernate.type.BasicTypeReference@4b691611
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration clob -> org.hibernate.type.BasicTypeReference@395a573c
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@395a573c
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration nclob -> org.hibernate.type.BasicTypeReference@379f9555
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@379f9555
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@7e3ee128
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@7d64a960
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@166ce247
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@5d92e8e2
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@542c65d9
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@cdbe995
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration Duration -> org.hibernate.type.BasicTypeReference@7dd45c93
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@7dd45c93
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@374b6e33
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@374b6e33
+2026-01-28 12:00:44.277 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@7ed7ae
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@7ed7ae
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@53ba1175
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@53ba1175
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@cd5ff55
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@cd5ff55
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@6003220a
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@16b64a03
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@1584c019
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@1584c019
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@3688baab
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@4fe2dd02
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@6ba060af
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@5817f1ca
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@5817f1ca
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@2b395581
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@726a8729
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration date -> org.hibernate.type.BasicTypeReference@1a2724d3
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@1a2724d3
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration time -> org.hibernate.type.BasicTypeReference@7dd91ffc
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@7dd91ffc
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@1c2dd89b
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@1c2dd89b
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@1c2dd89b
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration calendar -> org.hibernate.type.BasicTypeReference@3ad847f8
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@3ad847f8
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@3ad847f8
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@19faedcc
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@2c6927f0
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration instant -> org.hibernate.type.BasicTypeReference@5ef2cbe6
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@5ef2cbe6
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration uuid -> org.hibernate.type.BasicTypeReference@266da047
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@266da047
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@266da047
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@68b7bdcb
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@d84418a
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration class -> org.hibernate.type.BasicTypeReference@45e11627
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@45e11627
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration currency -> org.hibernate.type.BasicTypeReference@ec5f944
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration Currency -> org.hibernate.type.BasicTypeReference@ec5f944
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@ec5f944
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration locale -> org.hibernate.type.BasicTypeReference@5b4954b2
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@5b4954b2
+2026-01-28 12:00:44.278 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration serializable -> org.hibernate.type.BasicTypeReference@74eec640
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@74eec640
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration timezone -> org.hibernate.type.BasicTypeReference@3973b6d4
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@3973b6d4
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@18dd7767
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@18dd7767
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration url -> org.hibernate.type.BasicTypeReference@9205c0a
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@9205c0a
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration vector -> org.hibernate.type.BasicTypeReference@bfe47a8
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration float_vector -> org.hibernate.type.BasicTypeReference@2f1f9515
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration double_vector -> org.hibernate.type.BasicTypeReference@5c8ab9de
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration byte_vector -> org.hibernate.type.BasicTypeReference@57416e49
+2026-01-28 12:00:44.279 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration row_version -> org.hibernate.type.BasicTypeReference@2e7bb00e
+2026-01-28 12:00:44.280 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration object -> org.hibernate.type.JavaObjectType@28dd81ad
+2026-01-28 12:00:44.280 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@28dd81ad
+2026-01-28 12:00:44.281 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration null -> org.hibernate.type.NullType@78545d40
+2026-01-28 12:00:44.281 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@34549979
+2026-01-28 12:00:44.281 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@144a5e6e
+2026-01-28 12:00:44.281 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@2707c790
+2026-01-28 12:00:44.281 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@7de3206d
+2026-01-28 12:00:44.281 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@6dece1f9
+2026-01-28 12:00:44.281 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@2b936b04
+2026-01-28 12:00:44.281 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@32b112a1
+2026-01-28 12:00:44.281 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@5635bcd2
+2026-01-28 12:00:44.352 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo -  [trackingId: ] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-28 12:00:44.400 [main] INFO  o.hibernate.orm.connections.pooling -  [trackingId: ] - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-28 12:00:44.403 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [trackingId: ] - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3ff26c9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2ecdcfe3)
+2026-01-28 12:00:44.403 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [trackingId: ] - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@65b73689) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2047adea)
+2026-01-28 12:00:44.403 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [trackingId: ] - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5af40e45) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1a06602f)
+2026-01-28 12:00:44.403 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [trackingId: ] - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@46591e98) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5b6cc344)
+2026-01-28 12:00:44.403 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [trackingId: ] - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2110684a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@83e635f)
+2026-01-28 12:00:44.403 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [trackingId: ] - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@61d011e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3b56947a)
+2026-01-28 12:00:44.403 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [trackingId: ] - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1926f962) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@62794582)
+2026-01-28 12:00:44.403 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [trackingId: ] - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@c82ad22) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3f80d8c)
+2026-01-28 12:00:44.403 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry -  [trackingId: ] - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2d3b0978) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5c60c08)
+2026-01-28 12:00:44.404 [main] DEBUG o.h.t.d.jdbc.spi.JdbcTypeRegistry -  [trackingId: ] - addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+2026-01-28 12:00:44.404 [main] DEBUG o.h.t.d.jdbc.spi.JdbcTypeRegistry -  [trackingId: ] - addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+2026-01-28 12:00:44.404 [main] DEBUG o.h.t.d.jdbc.spi.JdbcTypeRegistry -  [trackingId: ] - addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+2026-01-28 12:00:44.404 [main] DEBUG o.h.t.d.jdbc.spi.JdbcTypeRegistry -  [trackingId: ] - addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2026-01-28 12:00:44.405 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration null -> org.hibernate.type.NullType@d6d683e
+2026-01-28 12:00:44.405 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Type registration key [null] overrode previous entry : `org.hibernate.type.NullType@78545d40`
+2026-01-28 12:00:44.407 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,3015)
+2026-01-28 12:00:44.407 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration Duration -> basicType@1(java.time.Duration,3015)
+2026-01-28 12:00:44.407 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.Duration -> basicType@1(java.time.Duration,3015)
+2026-01-28 12:00:44.408 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration org.hibernate.type.OffsetDateTimeType -> basicType@2(java.time.OffsetDateTime,3003)
+2026-01-28 12:00:44.408 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2026-01-28 12:00:44.408 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.OffsetDateTime -> basicType@2(java.time.OffsetDateTime,3003)
+2026-01-28 12:00:44.408 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration org.hibernate.type.ZonedDateTimeType -> basicType@3(java.time.ZonedDateTime,3003)
+2026-01-28 12:00:44.408 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2026-01-28 12:00:44.408 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.ZonedDateTime -> basicType@3(java.time.ZonedDateTime,3003)
+2026-01-28 12:00:44.408 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration org.hibernate.type.OffsetTimeType -> basicType@4(java.time.OffsetTime,3007)
+2026-01-28 12:00:44.408 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2026-01-28 12:00:44.408 [main] DEBUG o.hibernate.type.BasicTypeRegistry -  [trackingId: ] - Adding type registration java.time.OffsetTime -> basicType@4(java.time.OffsetTime,3007)
+2026-01-28 12:00:44.409 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -  [trackingId: ] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1c815814] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@14af73e1]
+2026-01-28 12:00:44.693 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -  [trackingId: ] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-28 12:00:44.694 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -  [trackingId: ] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@1c815814] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@61555218]
+2026-01-28 12:00:44.694 [main] TRACE o.h.type.spi.TypeConfiguration$Scope -  [trackingId: ] - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@61555218] for TypeConfiguration
+2026-01-28 12:00:44.694 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [trackingId: ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28 12:00:44.792 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory -  [trackingId: ] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-28 12:00:45.200 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  [trackingId: ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-28 12:00:45.219 [main] INFO  o.s.v.b.OptionalValidatorFactoryBean -  [trackingId: ] - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-01-28 12:00:45.371 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -  [trackingId: ] - Tomcat started on port 8080 (http) with context path '/'
+2026-01-28 12:00:45.377 [main] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: ] - Started CustomerServiceSpringApplication in 2.103 seconds (process running for 2.235)
+2026-01-28 12:00:45.377 [main] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: ] - CustomerServiceSpringApplication has started successfully with Instance ID: ce7822a0-9576-4791-a633-80d109e3d83c
+2026-01-28 12:01:37.171 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -  [trackingId: ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-28 12:01:37.172 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -  [trackingId: ] - Initializing Servlet 'dispatcherServlet'
+2026-01-28 12:01:37.175 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -  [trackingId: ] - Completed initialization in 3 ms
+2026-01-28 12:01:37.208 [http-nio-8080-exec-1] INFO  c.s.c.controller.CustomerController -  [trackingId: ] - API: Request to get all customers
+2026-01-28 12:01:45.588 [http-nio-8080-exec-2] INFO  c.s.c.controller.CustomerController -  [trackingId: 02a5945e-e131-4ac5-a009-6096a11fddeb] - API: Request to get customer by ID: C001
+2026-01-28 12:01:45.588 [http-nio-8080-exec-2] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 02a5945e-e131-4ac5-a009-6096a11fddeb] - SERVICE: Fetching customer by ID: C001
+2026-01-28 12:02:02.705 [http-nio-8080-exec-3] INFO  c.s.c.controller.CustomerController -  [trackingId: 44bfef3f-61f6-4782-9ea9-a117b265d26f] - API: Request to get customer by ID: C001
+2026-01-28 12:02:02.705 [http-nio-8080-exec-3] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 44bfef3f-61f6-4782-9ea9-a117b265d26f] - SERVICE: Fetching customer by ID: C001
+2026-01-28 12:02:07.001 [http-nio-8080-exec-5] INFO  c.s.c.controller.CustomerController -  [trackingId: 348ac8bd-5dc6-4b2d-8756-09b03f5d02eb] - API: Request to get customer by ID: C001
+2026-01-28 12:02:07.002 [http-nio-8080-exec-5] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 348ac8bd-5dc6-4b2d-8756-09b03f5d02eb] - SERVICE: Fetching customer by ID: C001
+2026-01-28 12:03:10.951 [http-nio-8080-exec-7] INFO  c.s.c.controller.CustomerController -  [trackingId: c9bdece0-4fae-4987-b9f9-064573fda5fe] - API: Request to get customer by ID: C001
+2026-01-28 12:03:10.952 [http-nio-8080-exec-7] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: c9bdece0-4fae-4987-b9f9-064573fda5fe] - SERVICE: Fetching customer by ID: C001
+2026-01-28 12:06:28.583 [http-nio-8080-exec-9] INFO  c.s.c.controller.CustomerController -  [trackingId: 359a5000-d388-4528-bb6a-a94e1b107a17] - API: Request to get customer by ID: C001
+2026-01-28 12:06:28.584 [http-nio-8080-exec-9] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 359a5000-d388-4528-bb6a-a94e1b107a17] - SERVICE: Fetching customer by ID: C001
+2026-01-28 12:40:04.975 [http-nio-8080-exec-1] INFO  c.s.c.controller.CustomerController -  [trackingId: ] - API: Request to get all customers
+2026-01-28 12:53:43.254 [http-nio-8080-exec-3] INFO  c.s.c.controller.CustomerController -  [trackingId: ] - API: Request to get all customers
+2026-01-28 12:53:43.257 [http-nio-8080-exec-4] INFO  c.s.c.controller.CustomerController -  [trackingId: e37c4dc3-2524-47d5-b853-429b390ecf35] - API: Request to get customer by ID: C001
+2026-01-28 12:53:43.257 [http-nio-8080-exec-4] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: e37c4dc3-2524-47d5-b853-429b390ecf35] - SERVICE: Fetching customer by ID: C001
+2026-01-28 12:55:55.185 [http-nio-8080-exec-7] INFO  c.s.c.controller.CustomerController -  [trackingId: ] - API: Request to get all customers
+2026-01-28 12:55:55.186 [http-nio-8080-exec-8] INFO  c.s.c.controller.CustomerController -  [trackingId: 6dbc3f90-8663-4f41-b48c-1472ce55e808] - API: Request to get customer by ID: C001
+2026-01-28 12:55:55.187 [http-nio-8080-exec-8] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 6dbc3f90-8663-4f41-b48c-1472ce55e808] - SERVICE: Fetching customer by ID: C001
+2026-01-28 12:56:14.529 [http-nio-8080-exec-9] INFO  c.s.c.controller.CustomerController -  [trackingId: aa46e343-fd5c-41f9-a94f-99a0b9e21b82] - API: Request to get customer by ID: C001
+2026-01-28 12:56:14.530 [http-nio-8080-exec-9] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: aa46e343-fd5c-41f9-a94f-99a0b9e21b82] - SERVICE: Fetching customer by ID: C001
+2026-01-28 12:56:17.902 [http-nio-8080-exec-10] INFO  c.s.c.controller.CustomerController -  [trackingId: 0f6b419e-c89c-40cd-96d7-fc913754a8e3] - API: Request to get customer by ID: C001
+2026-01-28 12:56:17.903 [http-nio-8080-exec-10] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 0f6b419e-c89c-40cd-96d7-fc913754a8e3] - SERVICE: Fetching customer by ID: C001
+2026-01-28 13:17:21.171 [http-nio-8080-exec-3] INFO  c.s.c.controller.CustomerController -  [trackingId: 92840234-11ae-4b0b-9a12-2dcccae35a8e] - API: Request to get customer by ID: C001
+2026-01-28 13:17:21.172 [http-nio-8080-exec-3] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 92840234-11ae-4b0b-9a12-2dcccae35a8e] - SERVICE: Fetching customer by ID: C001
+2026-01-28 13:38:00.773 [http-nio-8080-exec-5] INFO  c.s.c.controller.CustomerController -  [trackingId: ef82019b-4f0b-44f6-82ca-af8b7145c84d] - API: Request to get customer by ID: C001
+2026-01-28 13:38:00.774 [http-nio-8080-exec-5] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: ef82019b-4f0b-44f6-82ca-af8b7145c84d] - SERVICE: Fetching customer by ID: C001
+2026-01-28 13:38:38.105 [http-nio-8080-exec-6] INFO  c.s.c.controller.CustomerController -  [trackingId: 78850d91-ccd2-4144-b8e4-ff3abc9d7420] - API: Request to get customer by ID: C001
+2026-01-28 13:38:38.105 [http-nio-8080-exec-8] INFO  c.s.c.controller.CustomerController -  [trackingId: ] - API: Request to get all customers
+2026-01-28 13:38:38.106 [http-nio-8080-exec-6] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 78850d91-ccd2-4144-b8e4-ff3abc9d7420] - SERVICE: Fetching customer by ID: C001
+2026-01-28 14:01:46.045 [http-nio-8080-exec-10] INFO  c.s.c.controller.CustomerController -  [trackingId: ] - API: Request to get all customers
+2026-01-28 14:01:51.781 [http-nio-8080-exec-1] INFO  c.s.c.controller.CustomerController -  [trackingId: b6ed8ef1-d745-4a2c-92ae-c293807062df] - API: Request to get customer by ID: C001
+2026-01-28 14:01:51.781 [http-nio-8080-exec-1] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: b6ed8ef1-d745-4a2c-92ae-c293807062df] - SERVICE: Fetching customer by ID: C001
+2026-01-28 14:02:02.706 [http-nio-8080-exec-2] INFO  c.s.c.controller.CustomerController -  [trackingId: 56aa953c-1472-4624-a4dc-38814f1dedd8] - API: Request to get customer by ID: C001
+2026-01-28 14:02:02.706 [http-nio-8080-exec-2] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 56aa953c-1472-4624-a4dc-38814f1dedd8] - SERVICE: Fetching customer by ID: C001
+2026-01-28 14:02:08.788 [http-nio-8080-exec-3] INFO  c.s.c.controller.CustomerController -  [trackingId: 46e1dea4-aa8f-46ab-9121-7bb24d722469] - API: Request to get customer by ID: C001
+2026-01-28 14:02:08.789 [http-nio-8080-exec-3] INFO  c.s.c.CustomerServiceSpringApplication -  [trackingId: 46e1dea4-aa8f-46ab-9121-7bb24d722469] - SERVICE: Fetching customer by ID: C001
+2026-01-28 14:03:14.705 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [trackingId: ] - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-28 14:03:14.716 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -  [trackingId: ] - Graceful shutdown complete
+2026-01-28 14:03:14.729 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -  [trackingId: ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-28 14:03:14.738 [SpringApplicationShutdownHook] TRACE o.h.type.spi.TypeConfiguration$Scope -  [trackingId: ] - Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@61555218] for TypeConfiguration
+2026-01-28 14:03:14.738 [SpringApplicationShutdownHook] DEBUG o.h.type.spi.TypeConfiguration$Scope -  [trackingId: ] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@38609590] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@61555218]
+2026-01-28 14:03:14.746 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [trackingId: ] - HikariPool-1 - Shutdown initiated...
+2026-01-28 14:03:14.750 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource -  [trackingId: ] - HikariPool-1 - Shutdown completed.

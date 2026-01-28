@@ -75,6 +75,43 @@ public class InvoiceController {
                     .body("Error occurred while refreshing product cache: " + e.getMessage());
         }
     }
+    
+    @GetMapping("/products/cache/status")
+    public ResponseEntity<Map<String, Object>> getProductCacheStatus() {
+        log.info("Request received to get product cache status.");
+        try {
+            Map<String, Object> status = new LinkedHashMap<>();
+            status.put("cacheEmpty", productClientService.isCacheEmpty());
+            status.put("cacheSize", productClientService.getCacheSize());
+            status.put("timestamp", java.time.LocalDateTime.now());
+            
+            log.debug("Product cache status retrieved: {}", status);
+            return ResponseEntity.ok(status);
+        } catch (Exception e) {
+            log.error("Error occurred while getting product cache status: {}", e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(Map.of("error", "Error occurred while getting product cache status: " + e.getMessage()));
+        }
+    }
+    
+    @GetMapping("/products/cache/all")
+    public ResponseEntity<Map<String, Object>> getAllCachedProducts() {
+        log.info("Request received to get all cached products.");
+        try {
+            List<Product> products = productClientService.getAllCachedProducts();
+            Map<String, Object> response = new LinkedHashMap<>();
+            response.put("cacheSize", products.size());
+            response.put("products", products);
+            response.put("timestamp", java.time.LocalDateTime.now());
+            
+            log.debug("Retrieved {} products from cache", products.size());
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            log.error("Error occurred while getting cached products: {}", e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(Map.of("error", "Error occurred while getting cached products: " + e.getMessage()));
+        }
+    }
 	
 	@GetMapping
 	public ResponseEntity<List<InvoiceDetails>> getInvoices(){
